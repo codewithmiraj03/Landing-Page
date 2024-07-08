@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+     /* header */
+.container{
+    height: 500px;
+    width: 1200px;
+    margin: 50px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(27, 1, 77);
+}
+.logo{
+    height: 15px;
+    width: 15px;
+    margin-top: -5px;
+    margin-left: 40px;
+    border-radius: 100%;
+    border: 8px solid orangered;
+
+}
+.nav {
+    display: flex;
+    margin-top: 25px;
+    gap: 5px;
+    color: white;
+    
+    
+}
+
+.home{
+    display: flex;
+    margin-left: 50%;
+    gap: 30px;
+    margin-top: -25px;
+    color: white;
+}
+.react{
+    display: flex;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    background-color: rgb(255, 68, 0);
+    align-items: center;
+    margin-top: -3px;
+}
+.react:hover{
+    border: 2px solid orangered;
+}
+.fashion{
+    margin-top: 120px;
+    margin-left: 40px;
+    font-size: 2.5rem;
+    color: white;
+}
+.landing-page{
+    margin-top: 5px;
+    margin-left: 40px;
+    font-size: 3rem;
+    color: white;
+}
+.lorem{
+     margin-left: 40px;
+     color: white;
+     
+}
+.read{
+    border: 3px solid orangered;
+    height: 20px;
+    width: 110px;
+    margin-left: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:  orangered;
+}
+.read :hover{
+    border: 2px solid orangered;
+}
+
+.image{
+    position: relative;
+    
+    
+}
+.image1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -330px;
+    margin-left: 70%;
+    background-size: cover;
+}
+.image2{
+    position: absolute;
+    z-index: 1;
+    margin-top: -300px;
+    margin-left: 65%;
+}
+.image3{
+    position: absolute;
+    z-index: 1;
+    margin-top:-320px;
+    margin-left: 50%;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.read a {
+    text-decoration: none;
+    color: white;
+}
